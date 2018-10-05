@@ -1,0 +1,95 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MovieOnline</string>
+
+    <string name="full_screen">full screen mode</string>
+    <string name="description_btn_pause">pause button</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_genres">Genres</string>
+    <string name="nav_history">History</string>
+    <string name="nav_favourite">Favourite</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_twitter">Twitter</string>
+    <string name="nav_facebook">Facebook</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Genres</item>
+        <item>History</item>
+        <item>Favourite</item>
+        <item>Settings</item>
+        <item>Twitter</item>
+        <item>Facebook</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- For tab view -->
+    <string name="title_popular">POPULAR</string>
+    <string name="title_trending">TRENDING</string>
+    <string name="title_last_update">LAST UPDATE</string>
+
+    <string name="title_episode">EPISODE</string>
+    <string name="title_information">INFORMATION</string>
+    <string name="title_more_like">MORE LIKE</string>
+
+    <!-- Action bar menu option -->
+    <string name="menu_delete_all_history">DELETE ALL</string>
+    <string name="menu_delete_all_favourite">DELETE ALL</string>
+
+    <!-- For setting screen -->
+    <string name="txt_support">SUPPORT</string>
+    <string name="txt_report_problem">Report a problem</string>
+    <string name="txt_language">LANGUAGE</string>
+    <string name="txt_social_network">SOCIAL NETWORK</string>
+    <string name="txt_invite_friend">Invite your friends</string>
+    <string name="txt_about_us">About Us</string>
+    <string name="txt_maybe_need">Maybe you need</string>
+    <string name="txt_join_fan_page">Join our fanpage</string>
+    <string name="txt_follow_twitter">Follow me on Twitter</string>
+
+    <!-- For dialogs -->
+    <string name="txt_no">No</string>
+    <string name="txt_yes">Yes</string>
+    <string name="title_delete_histories">History movies</string>
+    <string name="content_delete_histories">Do you want to delete all history movies?</string>
+    <string name="title_delete_bookmarks">Bookmark movies</string>
+    <string name="content_delete_bookmarks">Do you want to delete all bookmark movies?</string>
+
+    <!-- For movie controller -->
+    <string name="text_cc">CC</string>
+
+    <!-- For Admob -->
+    <string name="ad_banner">ca-app-pub-7496409127006546/3134936911</string>
+    <string name="ad_full">ca-app-pub-7496409127006546/2436932911</string>
+    <string name="ad_application_id">ca-app-pub-7496409127006546~1658203717</string>
+
+    <!-- For exo player -->
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+    <string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="error_drm_unknown">An unknown DRM error occurred</string>
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+
+    <string name="retry">Retry</string>
+</resources>

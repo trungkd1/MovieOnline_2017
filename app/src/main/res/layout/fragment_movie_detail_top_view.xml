@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    app:layout_collapseMode="parallax"
+    app:layout_scrollFlags="scroll|snap">
+
+    <RelativeLayout
+        android:id="@+id/rl_movie_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="7">
+                <ImageView
+                    android:id="@+id/iv_movie_thumb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/test_320_480"/>
+
+
+                <ImageView
+                    android:id="@+id/iv_bookmark"
+                    android:layout_width="31dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:clickable="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/selector_bookmark"/>
+
+                <ImageView
+                    android:id="@+id/iv_share_movie"
+                    android:layout_width="48dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:clickable="true"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_share_movie"/>
+
+                <ImageView
+                    android:id="@+id/iv_hd"
+                    android:layout_width="32dp"
+                    android:layout_height="21dp"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true"
+                    android:layout_margin="2dp"
+                    android:layout_below="@+id/iv_share_movie"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_hd"/>
+
+                <ImageView
+                    android:id="@+id/iv_cc"
+                    android:layout_width="32dp"
+                    android:layout_height="21dp"
+                    android:layout_alignParentRight="true"
+                    android:clickable="true"
+                    android:layout_marginRight="2dp"
+                    android:layout_below="@+id/iv_hd"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_cc"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_play_circle_outline_white"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_button_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_movie_thumb"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_server"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="SERVER"/>
+
+        <Button
+            android:id="@+id/btn_watch_now"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="WATCH NOW"/>
+    </LinearLayout>
+</RelativeLayout>

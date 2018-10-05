@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
+              android:minWidth="4000dp"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="SERVER"
+            android:textColor="@color/white"
+            android:textSize="28sp"/>
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_close_message"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_divider"/>
+
+    <ListView
+        android:id="@+id/lv_container"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:choiceMode="singleChoice"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+    </ListView>
+</LinearLayout>

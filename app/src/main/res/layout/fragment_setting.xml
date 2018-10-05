@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_75">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/setting_text_view_title"
+            android:text="@string/txt_support"/>
+
+        <View style="@style/setting_divider"/>
+
+        <LinearLayout
+            android:id="@+id/ll_report_problem"
+            style="@style/setting_linear_item_bound">
+
+            <TextView
+                style="@style/setting_text_view_item_label"
+                android:text="@string/txt_report_problem"/>
+
+            <ImageView style="@style/setting_image_view_item_icon"/>
+        </LinearLayout>
+
+        <View style="@style/setting_divider"/>
+
+        <TextView
+            style="@style/setting_text_view_title"
+            android:text="@string/txt_social_network"/>
+
+        <View style="@style/setting_divider"/>
+
+        <LinearLayout
+            android:id="@+id/ll_invite_friends"
+            style="@style/setting_linear_item_bound">
+
+            <TextView
+                style="@style/setting_text_view_item_label"
+                android:text="@string/txt_invite_friend"/>
+
+            <ImageView style="@style/setting_image_view_item_icon"/>
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="16dp"
+            style="@style/setting_divider"/>
+
+        <LinearLayout
+            android:id="@+id/ll_about_us"
+            style="@style/setting_linear_item_bound">
+
+            <TextView
+                style="@style/setting_text_view_item_label"
+                android:text="@string/txt_about_us"/>
+
+            <ImageView style="@style/setting_image_view_item_icon"/>
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="16dp"
+            style="@style/setting_divider"/>
+
+        <LinearLayout
+            android:id="@+id/ll_maybe_need"
+            style="@style/setting_linear_item_bound">
+
+            <TextView
+                style="@style/setting_text_view_item_label"
+                android:text="@string/txt_maybe_need"/>
+
+            <ImageView style="@style/setting_image_view_item_icon"/>
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="16dp"
+            style="@style/setting_divider"/>
+
+        <LinearLayout
+            android:id="@+id/ll_join_fan_page"
+            style="@style/setting_linear_item_bound">
+
+            <TextView
+                style="@style/setting_text_view_item_label"
+                android:text="@string/txt_join_fan_page"/>
+
+            <ImageView style="@style/setting_image_view_item_icon"/>
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="16dp"
+            style="@style/setting_divider"/>
+
+        <LinearLayout
+            android:id="@+id/ll_follow_twitter"
+            style="@style/setting_linear_item_bound">
+
+            <TextView
+                style="@style/setting_text_view_item_label"
+                android:text="@string/txt_follow_twitter"/>
+
+            <ImageView style="@style/setting_image_view_item_icon"/>
+        </LinearLayout>
+
+        <View style="@style/setting_divider"/>
+    </LinearLayout>
+</ScrollView>
